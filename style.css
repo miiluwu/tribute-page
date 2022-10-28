@@ -1,0 +1,81 @@
+*{
+  font-family:Padauk,sans-serif;
+  font-size:10px;
+  background:#9c7ca5;
+}
+
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size:1.5rem;
+}
+
+body{
+  text-align:center;
+}
+
+#img-div{
+  margin-left:15%;
+  margin-right:15%;
+  padding:10px;
+}
+
+#image{
+  height:99%;
+  width:99%;
+  max-width:800px;
+  max-height:435px;
+  object-fit:cover;
+}
+
+h2{
+  font-size:2rem;
+  font-style:italic;
+  background: rgb(156,124,165);
+background: linear-gradient(90deg, rgba(156,124,165,1) 0%, rgba(239,71,111,1) 50%, rgba(156,124,165,1) 100%);
+  color: white;
+}
+
+h1{
+  font-family:Impact;
+  font-style: oblique;
+  font-size:3rem;
+  text-align:center;
+  text-transform:uppercase;
+  text-shadow: 5px 5px 0px #2164a4, 
+                  10px 10px 0px #c406a0, 
+                  15px 15px 0px #f3e976;
+}
+
+p{
+  font-size: 1.5rem;
+  text-align: justify;
+  margin:auto 10%;  
+}
+
+#tribute-info {
+  font-weight: 700;
+  margin: auto 15% 50px;
+  padding: 35px;
+  background: rgb(156,124,165);
+background: linear-gradient(90deg, rgba(156,124,165,1) 0%, rgba(255,204,224,1) 8%, rgba(247,198,219,1) 92%, rgba(156,124,165,1) 100%);
+}
+
+a:link {
+  color: pink;
+  
+}
+
+#tribute-link:hover {
+  color: #ff0066;
+  
+}
+
+#nefli:hover {
+  font-size:1.6rem;
+}
+
+#pain {
+  font-size: 1rem;
+}
